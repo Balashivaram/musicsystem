@@ -91,7 +91,7 @@ This file will hold the information of the music
 > - Genre
 > - Number of times played
 
-## login,txt
+## login.txt
 This file will hold the users data and their informationss .It will hold thse values they are 
 > - Name
 > - Username
