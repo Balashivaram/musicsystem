@@ -33,8 +33,7 @@ presses N it will open Signup.py and then it will go to the commonfile.txt and t
 Enter an option: <br>
 
 
-
-
 If user press 1 it will open Recomend.py if user presses 2 it will open Album.py if user presses 3 it will open Song.py if user persses 4 it will open
 artist.py if user types end it will stop running the application
+
 
