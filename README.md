@@ -22,5 +22,13 @@ It consists of **12 files**.They are
 
 ## main.py
 
-We are going to run this file in terminal and then it will ask user whether they have an account or not 
-  asdfsf
+We are going to run this file in terminal and then it will ask user whether they have an account or not if user press Y it will open login.py and if user 
+presses N it will open Signup.py and then it will go to the commonfile.txt and then reads a number that is either 1 or 0 if it is 1 it is a condition that user logged in successfully or he created a account and it will display a menu that has 
+  1)Recomend Songs
+  2)Search for an album
+  3)Search for a song
+  4)Search for an artist
+  Enter an option:
+If user press 1 it will open Recomend.py if user presses 2 it will open Album.py if user presses 3 it will open Song.py if user persses 4 it will open
+artist.py if user types end it will stop running the application
+
