@@ -103,3 +103,7 @@ This file will hold the users data and their informationss .It will hold thse va
 
 ## Instrustions
   To run the application run the **main.py** python file alone no need to run all th files and then here text files will act as a database.
+## Commands 
+If you want to go back we can press ** back ** and then if we want to end the program we can type ** end **
+## Challenges 
+There are many challenges I faced while doing the project. The main challenge is how to make two files to interact and then that was done by creating a commonfile as text file 
