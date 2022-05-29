@@ -82,24 +82,24 @@ The **commonfile.txt** will be shared among the all the python files to write an
 ## music.txt
 This file will hold the information of the music
 
-> -Name
-> -Album
-> Duration
-> Artist 
-> Writer
-> Language
-> Genre
-> Number of times played
+> - Name
+> - Album
+> - Duration
+> - Artist 
+> - Writer
+> - Language
+> - Genre
+> - Number of times played
 
 ##login,txt
 This file will hold the users data and their informationss .It will hold thse values they are 
-> -Name
-> -Username
-> -Password
-> -Country
-> -Genre
-> -Artist
-> -Language
+> - Name
+> - Username
+> - Password
+> - Country
+> - Genre
+> - Artist
+> - Language
 
 ## Instrustions
   To run the application run the **main.py** python file alone no need to run all th files and then here text files will act as a database.
