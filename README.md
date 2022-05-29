@@ -26,12 +26,11 @@ We are going to run this file in terminal and then it will ask user whether they
 presses N it will open Signup.py and then it will go to the commonfile.txt and then reads a number that is either 1 or 0 if it is 1 it is a condition that user logged in successfully or he created a account and it will display a menu that has 
 ''' 
 
-1)Recomend Songs <br>
+>1)Recomend Songs <br>
 2)Search for an album <br>
 3)Search for a song <br>
 4)Search for an artist <br>
 Enter an option: <br>
-,,,
 
 
 
