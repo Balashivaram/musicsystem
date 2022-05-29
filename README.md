@@ -59,3 +59,12 @@ It will store these information in **login.txt** file and then it wil open **com
 
 This file will be opendd when the user given 1 as a input in main.py and then main.py will execute this file and then it wil recomends songs to the user 
 based on artist,genre,language and then it will open the **commonfile.txt** in read mode and then it will get the username and then it will open **login.txt** file and then it will get the all the information about the user and then each time it will recomend songs from any one and then it wil get the genre or artist or language value that is types by user and then it will search for that song in **music.txt** file and then it will store the songs based on that attribute and then it will print that and then user can press the number of the song that he wants to play and then will open **Play.py** and then if user wants to go back he cna type ***back***
+
+## Album.py
+It will asks the user to type the album name and then it will display the songs that is available and then user can enter a number from the list of available songs and then that songs linenumber will be writter on **commonfile.txt** and then it will execute ***Play.py*** and then if user wants to go 
+back he can type ***back***
+
+## Artist.py
+It will ask the user to type the Artist Name and then it will search for the artist in ***music.txt*** and then it will list all the available songs and then user wants to tye the number that he wants to listen and then it will wirte the linenumber in ***commonfile.txt*** file and then it will execute **Play.py** and then if user wants to go back he can type **back**
+
+## Song.py
