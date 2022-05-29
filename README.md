@@ -46,12 +46,12 @@ it will wirte 1 to the file it is to inform that login is successful to main.py 
 
 It is used to create account in the applciation and then it will get the user informations such as 
 > - Name
-  - Username
-  - Password
-  - Country
-  - Genre
-  - Artist
-  - Language <br>
+>  - Username
+>  - Password
+>  - Country
+>  - Genre
+>  - Artist
+>  - Language <br>
   
 It will store these information in ** login.txt ** file and then it wil open ** commonfie.txt ** and then it will write 1 to the file to indicate that the account was created successfully and then it will not allow two users to have same username. If a user types a username that already oher user has it will print a error message.
 
