@@ -39,8 +39,8 @@ artist.py if user types end it will stop running the application
 ## login.py
 
 It will ask user to type their username and then their password and then it will open login.txt file in read mode and then it will check for the user 
-typed username and psasword and then if it is there it will *** Login Successful... *** and then it iwll open ** commonfile.txt ** in write mode and then 
-it will wirte 1 to the file it is to inform that login is successful to main.py if username and password and not found it will print *** Login unsuccessful... *** and then it will write 0 to the ** commonfile.txt ** 0 indicates that login was unsuccessful
+typed username and psasword and then if it is there it will ***Login Successful...*** and then it iwll open **commonfile.txt** in write mode and then 
+it will wirte 1 to the file it is to inform that login is successful to main.py if username and password and not found it will print ***Login unsuccessful...*** and then it will write 0 to the **commonfile.txt** 0 indicates that login was unsuccessful
 
 ## Signup.py
 
@@ -53,9 +53,9 @@ It is used to create account in the applciation and then it will get the user in
 >  - Artist
 >  - Language <br>
   
-It will store these information in ** login.txt ** file and then it wil open ** commonfie.txt ** and then it will write 1 to the file to indicate that the account was created successfully and then it will not allow two users to have same username. If a user types a username that already oher user has it will print a error message.
+It will store these information in **login.txt** file and then it wil open **commonfie.txt** and then it will write 1 to the file to indicate that the account was created successfully and then it will not allow two users to have same username. If a user types a username that already oher user has it will print a error message.
 
 ## Recomends.py
 
 This file will be opendd when the user given 1 as a input in main.py and then main.py will execute this file and then it wil recomends songs to the user 
-based on artist,genre,language and then it will open the ** commonfile.txt ** in read mode and then it will get the username and then it will open ** login.txt ** file and then it will get the all the information about the user and then each time it will recomend songs from any one and then it wil get the genre or artist or language value that is types by user and then it will search for that song in ** music.txt ** file and then it will store the songs based on that attribute and then it will print that and then user can press the number of the song that he wants to play and then will open ** Play.py ** and then if user wants to go back he cna type *** back ***
+based on artist,genre,language and then it will open the **commonfile.txt** in read mode and then it will get the username and then it will open **login.txt** file and then it will get the all the information about the user and then each time it will recomend songs from any one and then it wil get the genre or artist or language value that is types by user and then it will search for that song in **music.txt** file and then it will store the songs based on that attribute and then it will print that and then user can press the number of the song that he wants to play and then will open **Play.py** and then if user wants to go back he cna type ***back***
