@@ -36,4 +36,22 @@ Enter an option: <br>
 If user press 1 it will open Recomend.py if user presses 2 it will open Album.py if user presses 3 it will open Song.py if user persses 4 it will open
 artist.py if user types end it will stop running the application
 
+## login.py
 
+It will ask user to type their username and then their password and then it will open login.txt file in read mode and then it will check for the user 
+typed username and psasword and then if it is there it will *** Login Successful... *** and then it iwll open ** commonfile.txt ** in write mode and then 
+it will wirte 1 to the file it is to inform that login is successful to main.py if username and password and not found it will print *** Login unsuccessful... *** and then it will write 0 to the ** commonfile.txt ** 0 indicates that login was unsuccessful
+
+## Signup.py
+
+It is used to create account in the applciation and then it will get the user informations such as 
+  - Name
+  - Username
+  - Password
+  - Country
+  - Genre
+  - Artist
+  - Language
+It will store these information in ** login.txt ** file and then it wil open ** commonfie.txt ** and then it will write 1 to the file to indicate that the account was created successfully and then it will not allow two users to have same username. If a user types a username that already oher user has it will print a error message.
+
+## Recomends.py
