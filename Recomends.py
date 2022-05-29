@@ -1,6 +1,14 @@
 import random
 
 
+def clearConsole():
+    command = 'clear'
+    if os.name in ('nt', 'dos'): 
+        command = 'cls'
+    os.system(command)
+
+
+
 def searchmusic(type,number):
     lists=type.split(",")
     linenumber=list()
@@ -89,3 +97,4 @@ if(n==2):
         exec(open("Play.py").read())
 
 print("Going back!!!")
+clearConsole()
