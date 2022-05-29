@@ -68,3 +68,38 @@ back he can type ***back***
 It will ask the user to type the Artist Name and then it will search for the artist in ***music.txt*** and then it will list all the available songs and then user wants to tye the number that he wants to listen and then it will wirte the linenumber in ***commonfile.txt*** file and then it will execute **Play.py** and then if user wants to go back he can type **back**
 
 ## Song.py
+it will ask the user to type the songname and then it will search for the song in **music.txt** and then if it is available it will ask the user whether to play the song and if user press **1** it will execute **Playt.py** and then user can go play if he perssed **back**
+
+## Play.py
+This file wil display the informtion of the song and then it wil play the song and then it will get the linenumber from the **commonfile.txt** and then it will get the details of the song and then it will display and if user want to go back he can press **2**
+
+## Root.py
+The root file is used to add songs to the **music.txt** file and then it will ask the informtaion of the song and then root user can adc as many songs if we want to end the applicaiton he can type **end**.
+
+## commonfile.txt
+The **commonfile.txt** will be shared among the all the python files to write and read information this will be helpful to commnicate between the python files
+
+## music.txt
+This file will hold the information of the music
+
+> -Name
+> -Album
+> Duration
+> Artist 
+> Writer
+> Language
+> Genre
+> Number of times played
+
+##login,txt
+This file will hold the users data and their informationss .It will hold thse values they are 
+> -Name
+> -Username
+> -Password
+> -Country
+> -Genre
+> -Artist
+> -Language
+
+## Instrustions
+  To run the application run the **main.py** python file alone no need to run all th files and then here text files will act as a database.
