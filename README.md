@@ -18,3 +18,9 @@ It consists of **12 files**.They are
   - music.txt
   - Root.py
 
+# Working Of Each File
+
+## main.py
+
+We are going to run this file in terminal and then it will ask user whether they have an account or not 
+  asdfsf
